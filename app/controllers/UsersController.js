@@ -3,7 +3,7 @@
 const User = require('../models/user.model.js');
 console.log(User);
 
-
+console.log('---------User1---------');
 exports.store = (req, res) => {
     const user = new User({
         first_name: req.body.first_name, 
