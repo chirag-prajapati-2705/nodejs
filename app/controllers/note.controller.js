@@ -1,7 +1,6 @@
 
 const Note = require('../models/note.model.js');
-
-
+console.log('Note Controller');
 // Create and Save a new Note
 exports.create = (req, res) => {
     // Validate request
