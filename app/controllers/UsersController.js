@@ -1,7 +1,7 @@
 /*const User = require('../models/User.js')*/
 
 const User = require('../models/user.model.js');
-console.log(User);
+console.log('---------User------------',User);
 
 
 exports.store = (req, res) => {
