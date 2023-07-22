@@ -2,6 +2,7 @@
 
 const User = require('../models/user.model.js');
 console.log(User);
+console.log('-------user-----');
 
 
 exports.store = (req, res) => {
